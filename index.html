@@ -1,0 +1,471 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Riddhi Joshi | Data Engineering &amp; AI/ML Portfolio</title>
+<meta name="description" content="Portfolio of Riddhi Joshi, a final-year Computer Science student focused on Data Engineering, AI/ML, data pipelines, and software development.">
+
+<meta property="og:title" content="Riddhi Joshi | Data Engineering & AI/ML Portfolio">
+<meta property="og:description" content="Final-year Computer Science student building data pipelines, intelligent applications, and practical machine learning solutions.">
+<meta property="og:type" content="website">
+
+<link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🧬</text></svg>">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Inter:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="pipeline-bg" aria-hidden="true"></div>
+
+<!-- ============ NAVIGATION ============ -->
+<header class="nav-wrap">
+  <nav class="nav" aria-label="Primary">
+    <a href="#home" class="nav-mark">RJ<span class="nav-mark-dot">.</span></a>
+
+    <button class="nav-toggle" id="navToggle" aria-expanded="false" aria-controls="navLinks" aria-label="Toggle menu">
+      <span></span><span></span><span></span>
+    </button>
+
+    <ul class="nav-links" id="navLinks">
+      <li><a href="#home" data-section="home">Home</a></li>
+      <li><a href="#about" data-section="about">About</a></li>
+      <li><a href="#skills" data-section="skills">Skills</a></li>
+      <li><a href="#projects" data-section="projects">Projects</a></li>
+      <li><a href="#experience" data-section="experience">Experience</a></li>
+      <li><a href="#education" data-section="education">Education</a></li>
+      <li><a href="#achievements" data-section="achievements">Achievements</a></li>
+      <li><a href="#contact" data-section="contact">Contact</a></li>
+    </ul>
+  </nav>
+</header>
+
+<main id="home">
+
+  <!-- ============ HERO ============ -->
+  <section class="hero">
+    <div class="hero-inner">
+      <p class="hero-kicker">Computer Science Student — Data Engineering &amp; AI/ML</p>
+      <h1 class="hero-name">Riddhi Joshi</h1>
+      <p class="hero-role">Building the plumbing that lets data become decisions.</p>
+      <p class="hero-desc">Final-year Computer Science student passionate about building data pipelines, intelligent applications, and practical machine learning solutions.</p>
+
+      <div class="hero-actions">
+        <a href="#projects" class="btn btn-primary">View My Projects</a>
+        <a href="assets/resume/Riddhi_Joshi_Resume_Onepage_final.pdf" class="btn btn-ghost" download>Download Resume</a>
+        <a href="https://github.com/riddhijosh2006-rgb" class="btn btn-ghost" target="_blank" rel="noopener">GitHub</a>
+      </div>
+    </div>
+
+    <div class="hero-flow" role="img" aria-label="Data flow: Python to ETL to PostgreSQL to Kafka to Dashboard">
+      <div class="flow-track">
+        <div class="flow-node"><span class="flow-icon">Py</span><span class="flow-label">Python</span></div>
+        <div class="flow-line"></div>
+        <div class="flow-node"><span class="flow-icon">⇄</span><span class="flow-label">ETL</span></div>
+        <div class="flow-line"></div>
+        <div class="flow-node"><span class="flow-icon">🐘</span><span class="flow-label">PostgreSQL</span></div>
+        <div class="flow-line"></div>
+        <div class="flow-node"><span class="flow-icon">κ</span><span class="flow-label">Kafka</span></div>
+        <div class="flow-line"></div>
+        <div class="flow-node"><span class="flow-icon">◔</span><span class="flow-label">Dashboard</span></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ ABOUT ============ -->
+  <section class="section" id="about">
+    <div class="section-inner about-grid">
+      <div>
+        <h2 class="section-title">About</h2>
+        <p class="body-text">
+          I'm a final-year B.Tech Computer Science / Data Science student. My focus sits at the
+          intersection of Data Engineering, Data Science, Artificial Intelligence, Machine Learning,
+          and Backend Development — I like understanding how data actually moves: from source,
+          through processing, into storage, and out the other side as something people can read
+          on a dashboard.
+        </p>
+        <p class="body-text">
+          Most of what I know comes from building things myself — pipelines that pull from APIs,
+          load into PostgreSQL, and get reshaped with SQL; a hospital management backend with
+          role-based access; a churn model evaluated the way it should be, not the way that looks
+          best in a slide. I'm not claiming years of production experience — I'm claiming that I
+          build, break, and rebuild things until I understand them.
+        </p>
+      </div>
+      <div class="about-stats">
+        <div class="stat-card">
+          <span class="stat-num">7</span>
+          <span class="stat-label">Pipeline &amp; ML projects built</span>
+        </div>
+        <div class="stat-card">
+          <span class="stat-num">3</span>
+          <span class="stat-label">Data paradigms explored — ETL, ELT, Reverse ETL</span>
+        </div>
+        <div class="stat-card">
+          <span class="stat-num">Final Year</span>
+          <span class="stat-label">B.Tech CSE — Data Science</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ SKILLS ============ -->
+  <section class="section section-alt" id="skills">
+    <div class="section-inner">
+      <h2 class="section-title">Skills</h2>
+      <p class="section-sub">Tools I reach for, grouped by what they're for.</p>
+
+      <div class="skills-grid">
+        <div class="skill-group">
+          <h3 class="skill-group-title">Programming</h3>
+          <div class="tag-row">
+            <span class="tag">Python</span><span class="tag">SQL</span>
+          </div>
+        </div>
+
+        <div class="skill-group">
+          <h3 class="skill-group-title">Data Engineering</h3>
+          <div class="tag-row">
+            <span class="tag">ETL</span><span class="tag">ELT</span><span class="tag">Reverse ETL</span>
+            <span class="tag">Data Pipelines</span><span class="tag">PostgreSQL</span>
+            <span class="tag">Apache Kafka</span><span class="tag">API Data Integration</span>
+          </div>
+        </div>
+
+        <div class="skill-group">
+          <h3 class="skill-group-title">Data Science / AI</h3>
+          <div class="tag-row">
+            <span class="tag">Pandas</span><span class="tag">NumPy</span><span class="tag">Matplotlib</span>
+            <span class="tag">Seaborn</span><span class="tag">Scikit-learn</span><span class="tag">Machine Learning</span>
+          </div>
+        </div>
+
+        <div class="skill-group">
+          <h3 class="skill-group-title">Development</h3>
+          <div class="tag-row">
+            <span class="tag">Flask</span><span class="tag">HTML</span><span class="tag">CSS</span>
+            <span class="tag">JavaScript</span><span class="tag">Streamlit</span>
+          </div>
+        </div>
+
+        <div class="skill-group">
+          <h3 class="skill-group-title">Tools</h3>
+          <div class="tag-row">
+            <span class="tag">Git</span><span class="tag">GitHub</span><span class="tag">VS Code</span>
+            <span class="tag">pgAdmin</span><span class="tag tag-learning">Docker — currently learning</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ PROJECTS ============ -->
+  <section class="section" id="projects">
+    <div class="section-inner">
+      <h2 class="section-title">Projects</h2>
+      <p class="section-sub">Seven builds, each pushing further into how data pipelines and intelligent systems actually work.</p>
+
+      <div class="projects-grid">
+
+        <article class="project-card">
+          <div class="project-top">
+            <h3 class="project-title">Weather API Data Pipeline</h3>
+            <span class="project-tag-type">Data Engineering</span>
+          </div>
+          <p class="project-desc">A pipeline that pulls live weather data from a public API, transforms it, stores it in PostgreSQL with duplicate prevention, and visualizes it through a Streamlit dashboard.</p>
+          <ul class="project-features">
+            <li>API data extraction</li>
+            <li>Data transformation &amp; cleaning</li>
+            <li>PostgreSQL storage with duplicate prevention</li>
+            <li>Logging</li>
+            <li>Streamlit dashboard visualization</li>
+          </ul>
+          <div class="project-stack">
+            <span class="chip">Python</span><span class="chip">API</span><span class="chip">Pandas</span><span class="chip">PostgreSQL</span><span class="chip">Streamlit</span>
+          </div>
+          <div class="project-actions">
+            <a href="https://github.com/riddhijosh2006-rgb/All_Pipeline_Under_one/tree/main/api_data_pipeline" class="btn btn-small" target="_blank" rel="noopener">GitHub</a>
+            <a href="https://github.com/riddhijosh2006-rgb/All_Pipeline_Under_one/tree/main/api_data_pipeline" class="btn btn-small btn-outline" target="_blank" rel="noopener">Live Demo</a>
+          </div>
+        </article>
+
+        <article class="project-card">
+          <div class="project-top">
+            <h3 class="project-title">Local ETL Data Pipeline</h3>
+            <span class="project-tag-type">Data Engineering</span>
+          </div>
+          <p class="project-desc">A classic ETL flow: raw CSV files ingested, cleaned and validated, transformed, then loaded into PostgreSQL and surfaced on a dashboard.</p>
+          <ul class="project-features">
+            <li>Raw data ingestion — CSV → raw storage</li>
+            <li>Data cleaning &amp; transformation</li>
+            <li>Structured storage in PostgreSQL</li>
+            <li>Validation checks</li>
+            <li>Dashboard visualization</li>
+          </ul>
+          <div class="project-stack">
+            <span class="chip">Python</span><span class="chip">Pandas</span><span class="chip">PostgreSQL</span>
+          </div>
+          <div class="project-actions">
+            <a href="https://github.com/riddhijosh2006-rgb/All_Pipeline_Under_one/tree/main/data-engineering-project-ETL" class="btn btn-small" target="_blank" rel="noopener">GitHub</a>
+          </div>
+        </article>
+
+        <article class="project-card">
+          <div class="project-top">
+            <h3 class="project-title">PostgreSQL ELT Pipeline</h3>
+            <span class="project-tag-type">Data Engineering</span>
+          </div>
+          <p class="project-desc">Flips the ETL order: raw data is loaded into PostgreSQL first, then transformed in place using SQL — closer to how modern warehouse-native pipelines work.</p>
+          <ul class="project-features">
+            <li>Raw data loaded directly into PostgreSQL</li>
+            <li>Transformations performed inside the database</li>
+            <li>SQL-based data transformation</li>
+            <li>Data validation</li>
+          </ul>
+          <div class="project-stack">
+            <span class="chip">PostgreSQL</span><span class="chip">SQL</span><span class="chip">Python</span>
+          </div>
+          <div class="project-actions">
+            <a href="https://github.com/riddhijosh2006-rgb/All_Pipeline_Under_one/tree/main/data-engineering-project-ELT" class="btn btn-small" target="_blank" rel="noopener">GitHub</a>
+          </div>
+        </article>
+
+        <article class="project-card">
+          <div class="project-top">
+            <h3 class="project-title">Reverse ETL Customer Action Pipeline</h3>
+            <span class="project-tag-type">Data Engineering</span>
+          </div>
+          <p class="project-desc">Takes transformed data back out of the warehouse and turns it into action — generating customer actions from a PostgreSQL-based transformation layer and queuing them for downstream use.</p>
+          <ul class="project-features">
+            <li>PostgreSQL-based transformation</li>
+            <li>Customer action generation</li>
+            <li>Action queue</li>
+            <li>Extraction of transformed data for downstream systems</li>
+          </ul>
+          <div class="project-stack">
+            <span class="chip">Python</span><span class="chip">PostgreSQL</span><span class="chip">SQL</span>
+          </div>
+          <div class="project-actions">
+            <a href="https://github.com/riddhijosh2006-rgb/All_Pipeline_Under_one/tree/main/data-engineering-project-1-REVERSE" class="btn btn-small" target="_blank" rel="noopener">GitHub</a>
+          </div>
+        </article>
+
+        <article class="project-card">
+          <div class="project-top">
+            <h3 class="project-title">Real-Time Data Pipeline with Kafka</h3>
+            <span class="project-tag-type">Data Engineering</span>
+          </div>
+          <p class="project-desc">A learning-focused implementation of a streaming pipeline: an application produces events through an API, Kafka handles the stream, and processed data lands in PostgreSQL for a dashboard to read.</p>
+          <ul class="project-features">
+            <li>Application → API → Kafka → Processing → Database → Dashboard</li>
+            <li>Kafka producer / consumer setup</li>
+            <li>PostgreSQL as the sink</li>
+          </ul>
+          <p class="project-note">Built as a learning project — not a production-scale streaming system.</p>
+          <div class="project-stack">
+            <span class="chip">Apache Kafka</span><span class="chip">Python</span><span class="chip">PostgreSQL</span>
+          </div>
+          <div class="project-actions">
+            <a href="https://github.com/riddhijosh2006-rgb/All_Pipeline_Under_one/tree/main/realtime-helloq-pipeline" class="btn btn-small" target="_blank" rel="noopener">GitHub</a>
+          </div>
+        </article>
+
+        <article class="project-card">
+          <div class="project-top">
+            <h3 class="project-title">AI Smart Hospital Management System</h3>
+            <span class="project-tag-type">Full-Stack / AI Concept</span>
+          </div>
+          <p class="project-desc">A hospital management backend with role-based access for Admin, Doctor, and Patient roles, built around an AI/ML-oriented healthcare concept.</p>
+          <ul class="project-features">
+            <li>Role-based access — Admin, Doctor, Patient</li>
+            <li>Flask backend</li>
+            <li>SQLite database</li>
+            <li>Hospital management workflows</li>
+          </ul>
+          <p class="project-note">A concept-stage system, not a diagnostic tool — it does not perform actual medical diagnosis or run in a clinical setting.</p>
+          <div class="project-stack">
+            <span class="chip">Flask</span><span class="chip">SQLAlchemy</span><span class="chip">SQLite</span>
+          </div>
+          <div class="project-actions">
+            <a href="GITHUB_LINK_HERE" class="btn btn-small" target="_blank" rel="noopener">GitHub</a>
+          </div>
+        </article>
+
+        <article class="project-card">
+          <div class="project-top">
+            <h3 class="project-title">Customer Churn Prediction</h3>
+            <span class="project-tag-type">Machine Learning</span>
+          </div>
+          <p class="project-desc">A classification project predicting customer churn, built to compare how different models and preprocessing choices affect real evaluation metrics — not just accuracy.</p>
+          <ul class="project-features">
+            <li>Data preprocessing &amp; feature preparation</li>
+            <li>Logistic Regression</li>
+            <li>Gradient Boosting</li>
+            <li>Model evaluation with classification metrics</li>
+          </ul>
+          <div class="project-stack">
+            <span class="chip">Python</span><span class="chip">Scikit-learn</span><span class="chip">Pandas</span>
+          </div>
+          <div class="project-actions">
+            <a href="https://github.com/riddhijosh2006-rgb/customer-churn-data-pipeline" class="btn btn-small" target="_blank" rel="noopener">GitHub</a>
+          </div>
+        </article>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ EXPERIENCE ============ -->
+  <section class="section section-alt" id="experience">
+    <div class="section-inner">
+      <h2 class="section-title">Experience</h2>
+
+      <div class="timeline">
+        <div class="timeline-item">
+          <div class="timeline-dot"></div>
+          <div class="timeline-content">
+            <h3 class="timeline-role">Data Science Intern</h3>
+            <p class="timeline-meta">Inbox Infotech pvt. Ltd. · 13/07/2026 – 13/10/2026</p>
+            <ul class="timeline-list">
+              <li>Cleaned and prepared raw datasets, including handling missing values</li>
+              <li>Performed data analysis using Pandas and NumPy</li>
+              <li>Built visualizations with Matplotlib and Seaborn</li>
+              <li>Created dashboards to communicate findings</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ EDUCATION ============ -->
+  <section class="section" id="education">
+    <div class="section-inner">
+      <h2 class="section-title">Education</h2>
+      <div class="edu-card">
+        <h3 class="edu-degree">B.Tech — Computer Science / Data Science</h3>
+        <p class="edu-meta">ITM Vocational University · 2023 – 2027</p>
+        <p class="edu-status">Status: Final Year</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ ACHIEVEMENTS ============ -->
+  <section class="section section-alt" id="achievements">
+    <div class="section-inner">
+      <h2 class="section-title">Achievements &amp; Hackathons</h2>
+      <p class="section-sub">Events I've taken part in or applied to — statuses marked honestly.</p>
+
+      <div class="achieve-grid">
+        <div class="achieve-card">
+          <h3 class="achieve-name">Amazon ML Challenge</h3>
+          <span class="achieve-status">STATUS_PLACEHOLDER</span>
+        </div>
+        <div class="achieve-card">
+          <h3 class="achieve-name">Zero Origin</h3>
+          <span class="achieve-status">STATUS_PLACEHOLDER</span>
+        </div>
+        <div class="achieve-card">
+          <h3 class="achieve-name">Aether HackConquest</h3>
+          <span class="achieve-status">STATUS_PLACEHOLDER</span>
+        </div>
+      </div>
+      <h3 class="sub-heading">Certifications</h3>
+      <div class="cert-grid">
+        <div class="cert-card">
+          <h4 class="cert-name">CERTIFICATION_NAME</h4>
+          <p class="cert-issuer">ISSUER</p>
+          <p class="cert-date">DATE</p>
+        </div>
+        <div class="cert-card">
+          <h4 class="cert-name">CERTIFICATION_NAME</h4>
+          <p class="cert-issuer">ISSUER</p>
+          <p class="cert-date">DATE</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ GITHUB CTA ============ -->
+  <section class="section github-cta">
+    <div class="section-inner github-cta-inner">
+      <div>
+        <h2 class="section-title">Code, not just claims</h2>
+        <p class="body-text">Explore my projects, pipelines, experiments, and source code.</p>
+      </div>
+      <a href="https://github.com/riddhijosh2006-rgb" class="btn btn-primary" target="_blank" rel="noopener">Visit GitHub</a>
+    </div>
+  </section>
+
+  <!-- ============ RESUME ============ -->
+  <section class="section resume-section">
+    <div class="section-inner resume-inner">
+      <div>
+        <h2 class="section-title">Resume</h2>
+        <p class="body-text">A one-page summary of my projects, skills, and education.</p>
+      </div>
+      <a href="assets/resume/Riddhi_Joshi_Resume_OnePage_final.pdf" class="btn btn-primary" download>Download Resume</a>
+    </div>
+  </section>
+
+  <!-- ============ CONTACT ============ -->
+  <section class="section section-alt" id="contact">
+    <div class="section-inner contact-grid">
+      <div>
+        <h2 class="section-title">Contact</h2>
+        <p class="body-text">Reach out about internships, roles, or collaboration.</p>
+
+        <div class="contact-details">
+          <a class="contact-line" href="mailto:riddhijoshi965@gmail.com">
+            <span class="contact-label">Email</span>
+            <span class="contact-value">riddhijoshi965@gmail.com</span>
+          </a>
+          <a class="contact-line" href="https://www.linkedin.com/in/joshi-riddhi-111366413/" target="_blank" rel="noopener">
+            <span class="contact-label">LinkedIn</span>
+            <span class="contact-value">https://www.linkedin.com/in/joshi-riddhi-111366413/</span>
+          </a>
+          <a class="contact-line" href="https://github.com/riddhijosh2006-rgb" target="_blank" rel="noopener">
+            <span class="contact-label">GitHub</span>
+            <span class="contact-value">https://github.com/riddhijosh2006-rgb</span>
+          </a>
+        </div>
+      </div>
+
+      <form class="contact-form" id="contactForm">
+        <p class="form-note">This form opens your email client via <code>mailto:</code>. No backend is connected — replace <code>YOUR_EMAIL</code> in script.js to receive messages this way, or wire it to a backend/form service later.</p>
+
+        <label class="form-label" for="cf-name">Name</label>
+        <input class="form-input" id="cf-name" name="name" type="text" required>
+
+        <label class="form-label" for="cf-email">Email</label>
+        <input class="form-input" id="cf-email" name="email" type="email" required>
+
+        <label class="form-label" for="cf-message">Message</label>
+        <textarea class="form-input" id="cf-message" name="message" rows="4" required></textarea>
+
+        <button type="submit" class="btn btn-primary form-submit">Send Message</button>
+      </form>
+    </div>
+  </section>
+
+</main>
+
+<!-- ============ FOOTER ============ -->
+<footer class="footer">
+  <div class="footer-inner">
+    <p>© 2026 Riddhi Joshi</p>
+    <p class="footer-built">Built with HTML, CSS &amp; JavaScript.</p>
+    <div class="footer-links">
+      <a href="https://github.com/riddhijosh2006-rgb" target="_blank" rel="noopener" aria-label="GitHub">GitHub</a>
+      <a href="https://www.linkedin.com/in/joshi-riddhi-111366413/" target="_blank" rel="noopener" aria-label="LinkedIn">LinkedIn</a>
+    </div>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
